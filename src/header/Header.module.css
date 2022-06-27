@@ -1,0 +1,12 @@
+.header{
+    display: flex;
+    height: 80px;
+    background: cyan;
+    justify-content: flex-end;
+    align-items: center;
+}
+@media (max-width: 770px) {
+    .header{
+       justify-content: center;
+    }
+}

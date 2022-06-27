@@ -1,0 +1,12 @@
+.nav{
+    width: 300px;
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 100px;
+}
+@media (max-width: 770px) {
+.nav{
+    margin-right: 0;
+}
+}

@@ -1,0 +1,29 @@
+.projectsBlock{
+    min-height: 100vh;
+    background: lightblue;
+}
+.projectsContainer{
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.title{
+    background: lightsteelblue;
+}
+.projects{
+    width: 100%;
+    border:1px solid;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+@media (max-width:940px) {
+    .projects{
+        justify-content: space-around;
+    }
+}
+@media (max-width:770px) {
+    .projects{
+        justify-content: center;
+    }
+}

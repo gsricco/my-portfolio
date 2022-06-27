@@ -1,0 +1,26 @@
+.mainBlock {
+    min-height: 100vh;
+    background: antiquewhite;
+}
+.text,.photo,.container {
+    border: 1px solid red;
+}
+
+.text{
+    width: 300px;
+}
+
+.photo {
+    display: flex;
+    width: 300px;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media (max-width:770px) {
+    .text{
+        text-align: center;
+    }
+}
